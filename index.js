@@ -227,12 +227,12 @@ import { URLs } from './user-data/urls.js';
   function populateBlogs(items, id) {
     const projectdesign = document.getElementById(id);
     const count = 3;
-  
+
     for (let i = 0; i < count; i++) {
       const h4 = document.createElement("h4");
       h4.className = "project-heading";
       h4.innerHTML = items[i].title;
-  
+
       const a = document.createElement("a");
       a.href = items[i].link;
       a.target = "_blank";
@@ -242,17 +242,17 @@ import { URLs } from './user-data/urls.js';
       pubDateEle.className = 'publish-date';
       pubDateEle.innerHTML = getBlogDate(items[i].pubDate);
       a.append(pubDateEle);
-  
+
       const divResumeContentRight = document.createElement("div");
       divResumeContentRight.className = "resume-content";
       divResumeContentRight.id = "right-div";
-  
+
       const p = document.createElement("p");
       p.className = "project-description";
       const html = items[i].content;
       const [, doc] = /<p>(.*?)<\/p>/g.exec(html) || [];
       p.innerHTML = doc;
-  
+
       const divSpan = document.createElement("div");
       for (const category of items[i].categories) {
         const span = document.createElement("span");
@@ -260,31 +260,31 @@ import { URLs } from './user-data/urls.js';
         span.innerHTML = category;
         divSpan.append(span);
       }
-  
+
       const divSubHeading = document.createElement("div");
       divSubHeading.className = "sub-heading";
       divSubHeading.append(p, divSpan);
       divResumeContentRight.append(divSubHeading);
-  
+
       const divResumeItem = document.createElement("div");
       divResumeItem.className = "resume-item";
       divResumeItem.append(divResumeContentRight);
       a.append(divResumeItem);
-  
+
       const divProjectCard = document.createElement("div");
       divProjectCard.className = "project-card";
       divProjectCard.append(a);
-  
+
       const li = document.createElement("li");
       li.append(divProjectCard);
       projectdesign.append(li);
-  
+
       if (i !== count - 1) {
         projectdesign.append(document.createElement("hr"));
       }
     }
   }
-  
+
   /**
    * Populate the HTML timeline with items.
    * @param {Array} items - An array of objects that represent the timeline items.

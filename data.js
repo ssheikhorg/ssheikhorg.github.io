@@ -1,7 +1,5 @@
 export const bio = [
-    "Hello! I'm Shapon Sheikh, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-    "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
-    "Thanks for visiting!",
+    "Hello! I'm Shapon Sheikh, a passionate developer with over six years of experience in backend development, cloud architecture, DevOps practices, and data engineering, I am on the lookout for challenging opportunities that allow me to push the boundaries of backend development. My eagerness to delve deep into complex problems and extract valuable insights from data drives my professional journey.",
 ];
 
 export const skills = [

@@ -44,23 +44,7 @@ export const projects = {
                 "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
             techStack: ["Dailogflow", "Firebase"],
-        },
-        {
-            projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
-            summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-            preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
-        },
-        {
-            projectName: "Bill Generator",
-            image: "images/billgenerator.png",
-            summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
+        }
     ],
     freelanceProjects: [
         {
@@ -70,15 +54,7 @@ export const projects = {
                 "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
             preview: "https://www.snylloair.com/",
             techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
-        },
+        }
     ],
 };
 

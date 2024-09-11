@@ -100,26 +100,63 @@ function populateBio(items, id) {
  * @returns {void}
  */
 
+// function populateSkills(items, id) {
+//     const skillsTag = document.getElementById(id);
+//     items.forEach(({skillName, color, percentage}) => {
+//         const h3 = getElement("h3", null);
+//         h3.innerHTML = skillName;
+//
+//         const divProgress = getElement("div", "progress");
+//         const divProgressBar = getElement("div", `progress-bar color-${color}`);
+//         divProgressBar.style = `width: ${percentage}%`;
+//         divProgress.append(divProgressBar);
+//
+//         const divProgressWrap = getElement("div", "progress-wrap");
+//         divProgressWrap.append(h3, divProgress);
+//
+//         const divAnimateBox = getElement("div", "col-md-6 animate-box");
+//         divAnimateBox.append(divProgressWrap);
+//
+//         skillsTag.append(divAnimateBox);
+//     });
+// }
 function populateSkills(items, id) {
     const skillsTag = document.getElementById(id);
-    items.forEach(({skillName, color, percentage}) => {
-        const h3 = getElement("h3", null);
-        h3.innerHTML = skillName;
 
-        const divProgress = getElement("div", "progress");
-        const divProgressBar = getElement("div", `progress-bar color-${color}`);
-        divProgressBar.style = `width: ${percentage}%`;
-        divProgress.append(divProgressBar);
+    // Create table structure
+    const table = document.createElement("table");
+    table.setAttribute("id", "skills-table");
 
-        const divProgressWrap = getElement("div", "progress-wrap");
-        divProgressWrap.append(h3, divProgress);
+    // Create table header
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
 
-        const divAnimateBox = getElement("div", "col-md-6 animate-box");
-        divAnimateBox.append(divProgressWrap);
+    thead.append(headerRow);
+    table.append(thead);
 
-        skillsTag.append(divAnimateBox);
+    // Create table body
+    const tbody = document.createElement("tbody");
+
+    items.forEach(({ title, skillName }) => {
+        // Create a row for each skill
+        const row = document.createElement("tr");
+
+        const tdTitle = document.createElement("td");
+        tdTitle.textContent = title;
+
+        const tdSkills = document.createElement("td");
+        tdSkills.textContent = skillName;
+
+        row.append(tdTitle, tdSkills);
+        tbody.append(row);
     });
+
+    table.append(tbody);
+
+    // Append the table to the provided tag
+    skillsTag.append(table);
 }
+
 
 /**
  * Populates projects to the HTML page.

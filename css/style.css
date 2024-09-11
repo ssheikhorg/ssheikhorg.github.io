@@ -2250,4 +2250,23 @@ span {
     text-align: right;
     font-weight: 600;
 }
-  
+
+
+#skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+#skills-table tr:nth-child(even) {
+  background-color: #fff5eb;
+}
+
+#skills-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+#skills-table th, #skills-table td {
+  padding: 10px;
+}

@@ -6,32 +6,46 @@ export const skills = [
     {
         title: "Languages",
         skillName: "Python, JavaScript, Golang",
-        color: "1",
-        percentage: "100",
     },
     {
-        title: "Frameworks/Libraries",
+        title: "Backend Frameworks",
         skillName: "FastAPI, Django, Flask, AWS Lambda, Langchain",
-        color: "6",
-        percentage: "100",
     },
     {
         title: "Databases",
         skillName: "PostgreSQL, MongoDB, Redis, DynamoDB, MySQL, Aurora",
-        color: "4",
-        percentage: "100",
     },
     {
         title: "Big Data Frameworks",
         skillName: "Apache Spark, Kafka",
-        color: "4",
-        percentage: "100",
     },
     {
-        title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
-        color: "7",
-        percentage: "100",
+        title: "Control system & documentation",
+        skillName: "GitHub, JIRA, Bitbucket, Confluence",
+    },
+    {
+        title: "Cloud Services",
+        skillName: "Serverless, Eventbridge, API Gateway, Lambda, Cognito, S3, SNS, CloudFront, VPC",
+    },
+    {
+        title: "Containerization",
+        skillName: "Docker, ECS, Fargate",
+    },
+    {
+        title: "Workflow Management",
+        skillName: "Airflow, Step Functions",
+    },
+    {
+        title: "IaC",
+        skillName: "CDK, SAM, Terraform",
+    },
+    {
+        title: "Web Development",
+        skillName: "Ajax, HTML, CSS, Bootstrap",
+    },
+    {
+        title: "Dashboarding Tools",
+        skillName: "Apache Superset, Kibana, Grafana",
     },
 ];
 

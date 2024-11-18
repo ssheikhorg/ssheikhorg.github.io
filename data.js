@@ -49,30 +49,46 @@ export const skills = [
     },
 ];
 
-export const projects = {
-    softwareProjects: [
-        {
-            projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
-            summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-            preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
-        }
-    ],
-    freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        }
-    ],
-};
+// export const projects = {
+//     softwareProjects: [
+//         {
+//             projectName: "Pizza Ordering ChatBot",
+//             image: "images/pizzaorderchatbot.png",
+//             summary:
+//                 "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+//             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+//             techStack: ["Dailogflow", "Firebase"],
+//         }
+//     ],
+//     freelanceProjects: [
+//         {
+//             projectName: "SnylloAir.com",
+//             image: "images/snylloair.png",
+//             summary:
+//                 "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+//             preview: "https://www.snylloair.com/",
+//             techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+//         }
+//     ],
+// };
 
 export const experience = [
+    {
+        title: "BI Developer",
+        duration: "October 2024 – Present",
+        subtitle: "Statera Energy Operations (Part-time)",
+        details: [
+            `Clean and preprocess raw data to ensure accuracy, consistency, and readiness for analysis.`,
+            `Design and develop interactive dashboards and data visualizations in Power BI to support decision-making.`,
+            `Manage and optimize cloud infrastructure for scalable and secure data storage and processing.`,
+            `Collaborate with stakeholders to gather requirements and translate them into actionable insights.`,
+            `Monitor and maintain data pipelines to ensure seamless integration and performance across systems.`,
+        ],
+        tags: [
+            "Python", "Data Engineering", "Microsoft SQL Server", "Azure IoT Hub", "Apache Spark", "Azure Data Lake"
+        ],
+        icon: "briefcase",
+    },
     {
         title: "Python Backend Engineer",
         duration: "June 2023 – May 2024",

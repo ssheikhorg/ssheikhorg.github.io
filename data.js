@@ -75,8 +75,8 @@ export const projects = {
 export const experience = [
     {
         title: "BI Developer",
-        duration: "October 2024 – Present",
-        subtitle: "Statera Energy Operations (Part-time)",
+        duration: "October 2024 – Present (Part-time)",
+        subtitle: "Statera Energy Operations (WF2 7BJ, Wakefield, UK)",
         details: [
             `Clean and preprocess raw data to ensure accuracy, consistency, and readiness for analysis.`,
             `Design and develop interactive dashboards and data visualizations in Power BI to support decision-making.`,

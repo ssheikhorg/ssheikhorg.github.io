@@ -49,28 +49,28 @@ export const skills = [
     },
 ];
 
-// export const projects = {
-//     softwareProjects: [
-//         {
-//             projectName: "Pizza Ordering ChatBot",
-//             image: "images/pizzaorderchatbot.png",
-//             summary:
-//                 "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-//             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-//             techStack: ["Dailogflow", "Firebase"],
-//         }
-//     ],
-//     freelanceProjects: [
-//         {
-//             projectName: "SnylloAir.com",
-//             image: "images/snylloair.png",
-//             summary:
-//                 "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-//             preview: "https://www.snylloair.com/",
-//             techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-//         }
-//     ],
-// };
+export const projects = {
+    softwareProjects: [
+        // {
+        //     projectName: "Pizza Ordering ChatBot",
+        //     image: "images/pizzaorderchatbot.png",
+        //     summary:
+        //         "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+        //     preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+        //     techStack: ["Dailogflow", "Firebase"],
+        // }
+    ],
+    freelanceProjects: [
+        // {
+        //     projectName: "SnylloAir.com",
+        //     image: "images/snylloair.png",
+        //     summary:
+        //         "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+        //     preview: "https://www.snylloair.com/",
+        //     techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        // }
+    ],
+};
 
 export const experience = [
     {
@@ -161,6 +161,22 @@ export const experience = [
 
 export const education = [
     {
+        "title": "M.Sc in Big Data Science and Technology",
+        "duration": "2024 - 2025",
+        "subtitle": "University of Bradford",
+        "details": [],
+        "tags": [
+            "Big Data Analytics",
+            "Machine Learning",
+            "Data Mining",
+            "Distributed Systems",
+            "Cloud Computing",
+            "Artificial Intelligence",
+            "Data Visualization"
+        ],
+        "icon": "graduation-cap"
+    },
+    {
         title: "B.Sc in Information Technology",
         duration: "2015 - 2019",
         subtitle: "International Open University, IOU",
@@ -174,15 +190,7 @@ export const education = [
             "Cloud Computing",
         ],
         icon: "graduation-cap",
-    },
-    {
-        title: "Class 12th, HSC",
-        duration: "",
-        subtitle: "Board of Secondary Education, Sylhet",
-        details: [],
-        tags: [],
-        icon: "book",
-    },
+    }
 ];
 
 export const footer = [

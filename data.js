@@ -74,32 +74,24 @@ export const projects = {
 
 export const experience = [
     {
-        title: "BI Developer",
-        duration: "October 2024 – Present (Part-time)",
-        subtitle: "Statera Energy Operations (WF2 7BJ, Wakefield, UK)",
+        title: "Freelance Python Developer (Upwork)",
+        duration: "June 2023 – Present",
+        subtitle: "Self-employed",
         details: [
+            `Develop and maintain Python-based applications for clients across various industries.`,
+            `Apply data analysis and backend development skills to solve complex technical challenges.`,
+            `Work with tools like Pandas, NumPy, and Flask to deliver scalable solutions that meet client needs.`,
+            `Provide ongoing support, optimize performance, and ensure smooth integration with client systems.`,
             `Clean and preprocess raw data to ensure accuracy, consistency, and readiness for analysis.`,
-            `Design and develop interactive dashboards and data visualizations in Power BI to support decision-making.`,
-            `Manage and optimize cloud infrastructure for scalable and secure data storage and processing.`,
-            `Collaborate with stakeholders to gather requirements and translate them into actionable insights.`,
-            `Monitor and maintain data pipelines to ensure seamless integration and performance across systems.`,
-        ],
-        tags: [
-            "Python", "Data Engineering", "Microsoft SQL Server", "Azure IoT Hub", "Apache Spark", "Azure Data Lake"
-        ],
-        icon: "briefcase",
-    },
-    {
-        title: "Python Backend Engineer",
-        duration: "June 2023 – May 2024",
-        subtitle: "ICS Inc. (via Upwork contract)",
-        details: [
-            `Developed a scalable data processing pipeline using Apache Spark and Azure Data Lake for real-time data ingestion, batch processing, and stream analytics.`,
-            `Integrated Twilio APIs for SMS and voice calls, managed webhooks and events and used FastAPI for backend integration.`,
-            `Leveraged Apache Spark to process large datasets in Azure Data Lake, enabling scalable data analytics and transformation.`,
-            `Enhanced data security and compliance during sensitive information processing with Apache Spark and Azure Data Lake.`,
-            `Optimized PostgreSQL database design, including schema modifications, indexing strategies, and performance tuning, using Jupyter Notebook for data manipulation and analysis.`,
-            `Guided high-traffic environments and background job processing using Redis for caching and Celery with RabbitMQ for efficient asynchronous task execution.`
+            `Fixed issues with IoT devices to enable connectivity with the Azure IoT Hub for data collection.`,
+            `Designed and developed interactive dashboards and data visualizations in Power BI to support decision-making.`,
+            `Managed and optimized cloud infrastructure for scalable and secure data storage and processing.`,
+            `Collaborated with stakeholders to gather requirements and translate them into actionable insights.`,
+            `Monitored and maintained data pipelines for seamless integration and performance across systems.`,
+            `Engineered a scalable data processing pipeline in Azure Data Lake, enabling seamless real-time data ingestion.`,
+            `Integrated Twilio APIs, managed event-driven webhooks, and employed FastAPI for backend services.`,
+            `Utilized Apache Spark to process large datasets in Azure Data Lake, enhancing data pipeline efficiency.`,
+            `Developed and optimized backend systems to support the company’s real-time data needs and ensure high availability.`,
         ],
         tags: [
             "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"

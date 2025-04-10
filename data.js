@@ -1,5 +1,5 @@
 export const bio = [
-    "Hello! I'm Shapon Sheikh, a passionate developer with over six years of experience in backend development, cloud architecture, DevOps practices, and data engineering, I am on the lookout for challenging opportunities that allow me to push the boundaries of backend development. My eagerness to delve deep into complex problems and extract valuable insights from data drives my professional journey.",
+    "Hello! I'm Shahin, a passionate developer with over six years of experience in backend development, cloud architecture, DevOps practices, and data engineering, I am on the lookout for challenging opportunities that allow me to push the boundaries of backend development. My eagerness to delve deep into complex problems and extract valuable insights from data drives my professional journey.",
 ];
 
 export const skills = [
@@ -14,6 +14,10 @@ export const skills = [
     {
         title: "Databases",
         skillName: "PostgreSQL, MongoDB, Redis, DynamoDB, MySQL, Aurora",
+    },
+    {
+        title: "Data Science & Machine Learning",
+        skillName: "Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch, Keras, Deep Learning, NLP, Time Series Analysis",
     },
     {
         title: "Big Data Frameworks",
@@ -51,14 +55,14 @@ export const skills = [
 
 export const projects = {
     softwareProjects: [
-        // {
-        //     projectName: "Pizza Ordering ChatBot",
-        //     image: "images/pizzaorderchatbot.png",
-        //     summary:
-        //         "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-        //     preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-        //     techStack: ["Dailogflow", "Firebase"],
-        // }
+        {
+            projectName: "Ticket Buy Back",
+            image: "images/tbb.png",
+            summary:
+                "Ticket Buyback is the only service that provides an instant, guaranteed sale price for your tickets. No need for constant pricing adjustments or worry that your tickets will not sell.",
+            preview: "https://www.ticketbuyback.com/",
+            techStack: ["FastAPI", "PostgreSQL", "Redis", "AWS Lambda", "AWS S3", "AWS Cognito", "ElasticSearch", "AWS CloudFront", "AWS API Gateway", "AWS EventBridge"],
+        }
     ],
     freelanceProjects: [
         // {
@@ -219,7 +223,7 @@ export const footer = [
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by Shapon Sheikh.",
+            "Made with &hearts; by Shahin.",
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },

@@ -108,22 +108,22 @@ export const experience = [
     //     ],
     //     icon: "briefcase",
     // },
-    {
-        title: "Python Backend Engineer (remote)",
-        duration: "Jun 2023 – Aug 2024",
-        subtitle: "ICS Inc. (Chicago, USA via Upwork)",
-        details: [
-            `Engineered a scalable data pipeline in Azure Data Lake for real-time data ingestion.`,
-            `Built backend services with Golang and integrated Twilio APIs for automated notifications.`,
-            `Procsseed large datasets with Apache Spark in Azure Data Lake for improved analytics.`,
-            `Enhanced PostgreSQL performance through indexing and performance tuning.`,
-            `Optimized background job processing with Redis and Celery for better system reliability`
-        ],
-        tags: [
-            "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"
-        ],
-        icon: "briefcase",
-    },
+    // {
+    //     title: "Python Backend Engineer (remote)",
+    //     duration: "Jun 2023 – Aug 2024",
+    //     subtitle: "ICS Inc. (Chicago, USA via Upwork)",
+    //     details: [
+    //         `Engineered a scalable data pipeline in Azure Data Lake for real-time data ingestion.`,
+    //         `Built backend services with Golang and integrated Twilio APIs for automated notifications.`,
+    //         `Procsseed large datasets with Apache Spark in Azure Data Lake for improved analytics.`,
+    //         `Enhanced PostgreSQL performance through indexing and performance tuning.`,
+    //         `Optimized background job processing with Redis and Celery for better system reliability`
+    //     ],
+    //     tags: [
+    //         "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"
+    //     ],
+    //     icon: "briefcase",
+    // },
     {
         title: "Senior Software Developer (Backend, Python)",
         duration: "Feb 2022 – Sep 2023",

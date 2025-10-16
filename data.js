@@ -1,5 +1,5 @@
 export const bio = [
-    "Hello! I'm Shahin, a passionate developer with over six years of experience in backend development, cloud architecture, DevOps practices, and data engineering, I am on the lookout for challenging opportunities that allow me to push the boundaries of backend development. My eagerness to delve deep into complex problems and extract valuable insights from data drives my professional journey.",
+    "Hello! I'm Sheikh Shapon, a passionate developer with over six years of experience in backend development, cloud architecture, DevOps practices, and data engineering, I am on the lookout for challenging opportunities that allow me to push the boundaries of backend development. My eagerness to delve deep into complex problems and extract valuable insights from data drives my professional journey.",
 ];
 
 export const skills = [
@@ -78,24 +78,46 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Freelance Python Developer (Upwork)",
-        duration: "June 2023 – Present",
-        subtitle: "Self-employed",
+        title: "Backend Engineer with AI Integration (remote)",
+        duration: "May 2025 – August 2025",
+        subtitle: "Al for Humans, Inc. (New York, USA via Upwork)",
         details: [
-            `Develop and maintain Python-based applications for clients across various industries.`,
-            `Apply data analysis and backend development skills to solve complex technical challenges.`,
-            `Work with tools like Pandas, NumPy, and Flask to deliver scalable solutions that meet client needs.`,
-            `Provide ongoing support, optimize performance, and ensure smooth integration with client systems.`,
-            `Clean and preprocess raw data to ensure accuracy, consistency, and readiness for analysis.`,
-            `Fixed issues with IoT devices to enable connectivity with the Azure IoT Hub for data collection.`,
-            `Designed and developed interactive dashboards and data visualizations in Power BI to support decision-making.`,
-            `Managed and optimized cloud infrastructure for scalable and secure data storage and processing.`,
-            `Collaborated with stakeholders to gather requirements and translate them into actionable insights.`,
-            `Monitored and maintained data pipelines for seamless integration and performance across systems.`,
-            `Engineered a scalable data processing pipeline in Azure Data Lake, enabling seamless real-time data ingestion.`,
-            `Integrated Twilio APIs, managed event-driven webhooks, and employed FastAPI for backend services.`,
-            `Utilized Apache Spark to process large datasets in Azure Data Lake, enhancing data pipeline efficiency.`,
-            `Developed and optimized backend systems to support the company’s real-time data needs and ensure high availability.`,
+            `Develop, maintain backend systems that integrate AI models (OpenAI, Gemini, Claude) with cloud services (AWS).`,
+            `Use Python to automate and streamline AI model deployments, ensure smooth interaction with cloud.`,
+            `Focus on building secure and scalable solutions that leverage AI for enhanced user experiences.`,
+            `Work closely with AI and cloud teams to ensure successful integration and performance optimization.`,
+        ],
+        tags: [
+            "Python", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Langchain"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Senior Backend Developer (remote)",
+        duration: "Oct 2024 – Apr 2025",
+        subtitle: "Torrance Analytics LLC (California, USA via Upwork)",
+        details: [
+            `Designed and implemented RESTful APIs using FastAPI for operations, user management, and transaction processing for ticketbuyback.com.`
+            `Optimized database schemas and queries in PostgreSQL for large-scale data processing.`,
+            `Integrated Elasticsearch to enable advanced filtering features for a better user experience.`,
+            `Developed serverless functions using AWS Lambda to handle ticket validation, price offer calculations, and fraud detection workflows.`,
+            `Scraped data from other sites related to tickets, events and concerts and ensured a scheduler to fetch and save them on the database timely basis`
+        ],
+        tags: [
+            "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Python Backend Engineer (remote)",
+        duration: "Jun 2023 – Aug 2024",
+        subtitle: "ICS Inc. (Chicago, USA via Upwork)",
+        details: [
+            `Engineered a scalable data pipeline in Azure Data Lake for real-time data ingestion.`,
+            `Built backend services with Golang and integrated Twilio APIs for automated notifications.`,
+            `Procsseed large datasets with Apache Spark in Azure Data Lake for improved analytics.`,
+            `Enhanced PostgreSQL performance through indexing and performance tuning.`,
+            `Optimized background job processing with Redis and Celery for better system reliability`
         ],
         tags: [
             "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"
@@ -223,7 +245,7 @@ export const footer = [
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by Shahin.",
+            "Made with &hearts; by Shapon.",
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },

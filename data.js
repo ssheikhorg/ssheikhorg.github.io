@@ -85,7 +85,7 @@ export const experience = [
             `Develop, maintain backend systems that integrate AI models (OpenAI, Gemini, Claude) with cloud services (AWS).`,
             `Use Python to automate and streamline AI model deployments, ensure smooth interaction with cloud.`,
             `Focus on building secure and scalable solutions that leverage AI for enhanced user experiences.`,
-            `Work closely with AI and cloud teams to ensure successful integration and performance optimization.`,
+            `Work closely with AI and cloud teams to ensure successful integration and performance optimization.`
         ],
         tags: [
             "Python", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Langchain"

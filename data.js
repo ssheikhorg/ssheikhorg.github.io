@@ -77,53 +77,53 @@ export const projects = {
 };
 
 export const experience = [
-    // {
-    //     title: "Backend Engineer with AI Integration (remote)",
-    //     duration: "May 2025 – August 2025",
-    //     subtitle: "Al for Humans, Inc. (New York, USA via Upwork)",
-    //     details: [
-    //         `Develop, maintain backend systems that integrate AI models (OpenAI, Gemini, Claude) with cloud services (AWS).`,
-    //         `Use Python to automate and streamline AI model deployments, ensure smooth interaction with cloud.`,
-    //         `Focus on building secure and scalable solutions that leverage AI for enhanced user experiences.`,
-    //         `Work closely with AI and cloud teams to ensure successful integration and performance optimization.`
-    //     ],
-    //     tags: [
-    //         "Python", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Langchain"
-    //     ],
-    //     icon: "briefcase",
-    // },
-    // {
-    //     title: "Senior Backend Developer (remote)",
-    //     duration: "Oct 2024 – Apr 2025",
-    //     subtitle: "Torrance Analytics LLC (California, USA via Upwork)",
-    //     details: [
-    //         `Designed and implemented RESTful APIs using FastAPI for operations, user management, and transaction processing for ticketbuyback.com.`
-    //         `Optimized database schemas and queries in PostgreSQL for large-scale data processing.`,
-    //         `Integrated Elasticsearch to enable advanced filtering features for a better user experience.`,
-    //         `Developed serverless functions using AWS Lambda to handle ticket validation, price offer calculations, and fraud detection workflows.`,
-    //         `Scraped data from other sites related to tickets, events and concerts and ensured a scheduler to fetch and save them on the database timely basis`
-    //     ],
-    //     tags: [
-    //         "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS"
-    //     ],
-    //     icon: "briefcase",
-    // },
-    // {
-    //     title: "Python Backend Engineer (remote)",
-    //     duration: "Jun 2023 – Aug 2024",
-    //     subtitle: "ICS Inc. (Chicago, USA via Upwork)",
-    //     details: [
-    //         `Engineered a scalable data pipeline in Azure Data Lake for real-time data ingestion.`,
-    //         `Built backend services with Golang and integrated Twilio APIs for automated notifications.`,
-    //         `Procsseed large datasets with Apache Spark in Azure Data Lake for improved analytics.`,
-    //         `Enhanced PostgreSQL performance through indexing and performance tuning.`,
-    //         `Optimized background job processing with Redis and Celery for better system reliability`
-    //     ],
-    //     tags: [
-    //         "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"
-    //     ],
-    //     icon: "briefcase",
-    // },
+    {
+        title: "Backend Engineer with AI Integration (remote)",
+        duration: "May 2025 – August 2025",
+        subtitle: "The Insight Company (New York, USA via Upwork)",
+        details: [
+            `Develop, maintain backend systems that integrate AI models (OpenAI, Gemini, Claude) with cloud services (AWS).`,
+            `Use Python to automate and streamline AI model deployments, ensure smooth interaction with cloud.`,
+            `Focus on building secure and scalable solutions that leverage AI for enhanced user experiences.`,
+            `Work closely with AI and cloud teams to ensure successful integration and performance optimization.`
+        ],
+        tags: [
+            "Python", "FastAPI", "PostgreSQL", "GenAI", "AWS", "Langchain"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Senior Backend Developer (remote)",
+        duration: "Oct 2024 – Apr 2025",
+        subtitle: "Torrance Analytics LLC (California, USA via Upwork)",
+        details: [
+            `Designed and implemented RESTful APIs using FastAPI for operations, user management, and transaction processing for ticketbuyback.com.`,
+            `Optimized database schemas and queries in PostgreSQL for large-scale data processing.`,
+            `Integrated Elasticsearch to enable advanced filtering features for a better user experience.`,
+            `Developed serverless functions using AWS Lambda to handle ticket validation, price offer calculations, and fraud detection workflows.`,
+            `Scraped data from other sites related to tickets, events and concerts and ensured a scheduler to fetch and save them on the database timely basis`
+        ],
+        tags: [
+            "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Python Backend Engineer (remote)",
+        duration: "Jun 2023 – Aug 2024",
+        subtitle: "ICS Inc. (Chicago, USA via Upwork)",
+        details: [
+            `Engineered a scalable data pipeline in Azure Data Lake for real-time data ingestion.`,
+            `Built backend services with Golang and integrated Twilio APIs for automated notifications.`,
+            `Procsseed large datasets with Apache Spark in Azure Data Lake for improved analytics.`,
+            `Enhanced PostgreSQL performance through indexing and performance tuning.`,
+            `Optimized background job processing with Redis and Celery for better system reliability`
+        ],
+        tags: [
+            "Python", "Data Engineering", "FastAPI", "PostgreSQL", "Redshift", "AWS", "Apache Spark", "Azure Data Lake"
+        ],
+        icon: "briefcase",
+    },
     {
         title: "Senior Software Developer (Backend, Python)",
         duration: "Feb 2022 – Sep 2023",

@@ -79,7 +79,7 @@ export const projects = {
 export const experience = [
     {
         title: "Backend Engineer with AI Integration (remote)",
-        duration: "May 2025 – August 2025",
+        duration: "May 2025 – November 2025",
         subtitle: "The Insight Company (New York, USA via Upwork)",
         details: [
             `Develop, maintain backend systems that integrate AI models (OpenAI, Gemini, Claude) with cloud services (AWS).`,
